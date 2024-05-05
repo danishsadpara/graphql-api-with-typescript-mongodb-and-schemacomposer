@@ -16,15 +16,20 @@ To get started with the project, follow these steps:
 
 1. **Clone the repository:**
 
-   ```bash
+   ```
    git clone https://github.com/danishsadapra/graphql-api-with-typescript-mongodb-and-schemacomposer.git
 
 2. Install dependencies:
+   ```
    yarn install
 
-3. Set up environment variables:Create a .env file in the root directory and configure the following environment variables:
+4. Set up environment variables:Create a .env file in the root directory and configure the following environment variables:
+ ```
   MONGODB_URI=mongodb://localhost:27017/your-database
-4. Start the server:
+```
+5. Start the server:
+   ```
    yarn start
+   ```
 ## Contributing
 Contributions are welcome! Feel free to submit issues or pull requests for any improvements or features you'd like to see.
