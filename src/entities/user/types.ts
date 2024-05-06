@@ -3,9 +3,9 @@ import { schemaComposer } from "graphql-compose";
 export const UserTypeEnum = schemaComposer.createEnumTC({
   name: "UserTypeEnum",
   values: {
-    SUPPLIER: { description: "Supplier user type" },
-    CLIENT: { description: "Client user type", code: 2 },
-    CUSTOMER: {},
+    ADMIN: { description: "Have complete Access" },
+    USER: { description: "No access to admin tools", code: 2 },
+    NOUSER: {},
   },
 });
 
